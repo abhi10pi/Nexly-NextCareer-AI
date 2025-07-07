@@ -13,7 +13,7 @@ async function Header() {
     <header className="fixed top-0 w-full border-b bg-background/80 backdrop-blur-sm z-50 supports-[backdrop-filter]:bg-background/60">
       <nav className='container mx-auto px-4 h-16 flex  items-center justify-between'>
         <Link href="/"> {/* For Logo */}
-          <Image src="/logo.png" alt="Nexly" width={200} height={200} className="h-20 py-1 w-auto object-contain" />
+          <Image src="/logo.png" alt="Nexly" width={200} height={200} className="h-20 py-1 w-auto " />
         </Link>
 
         <div className="flex space-x-2 md:space-x-4 justify-center items-center">
